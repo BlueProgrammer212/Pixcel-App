@@ -2,11 +2,15 @@ const { app, BrowserWindow } = require('electron');
 
 function createWindow () {
     const win = new BrowserWindow({
-        width: 900,
-        height: 600,
+        width: 1000,
+        height: 700,
+        show: false
     })
 
     win.loadURL('https://blueprogrammer212.github.io/home');
+    win.once("ready-to-show", () => {
+        win.show();
+    })
 };
 
 app.whenReady().then(() => {
