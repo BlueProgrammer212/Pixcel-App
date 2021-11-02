@@ -6,7 +6,7 @@ function createWindow () {
         height: 600
     })
 
-    win.loadFile('index.html');
+    win.loadUrl('https://blueprogrammer212.github.io');
 };
 
 app.whenReady().then(() => {
