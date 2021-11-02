@@ -1,4 +1,14 @@
 {
+  "name": "pixcel",
+  "version": "1.0.0", 
+  "description": "Pixcel is a free 2D pixel art application/website for talented pixel artists and game developers! Pixcel also allows you to publish your magnificent artwork to motivate and inspire others! You can visit Pixcel now at https://blueprogrammer212.github.io/ Enjoy!",
+  "main": "app.js",
+  "author": "Gian Marlo M. Tullao",
+  "license": "MIT", 
+  "scripts": {
+    "test": "echo Execution ran successfully",
+    "start": "electron ."
+  },
   "devDependencies": {
     "electron": "^15.3.0"
   }
