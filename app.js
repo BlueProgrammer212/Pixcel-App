@@ -4,7 +4,8 @@ function createWindow () {
     const win = new BrowserWindow({
         width: 1000,
         height: 700,
-        show: false
+        show: false,
+        autoHideMenuBar: true
     })
 
     win.loadURL('https://blueprogrammer212.github.io/home');
